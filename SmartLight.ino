@@ -19,7 +19,7 @@ void setup()
 
 void loop()
 {
-
+	Serial.begin(9600);
   /* add main program code here */
 
 }
