@@ -9,6 +9,13 @@ const int top_output_pin = 1; // только digital обмены!
 const int middle_output_pin = 5; // используй для вывода PWM значений
 const int bottom_output_pin = 9;
 
+// и блок ГЛОБАЛЬНЫХ переменных, которые мы будем использовать для ввода и вывода
+
+int darknessLevel; // в эту переменную мы читаем текущий уровень темноты
+int signalCloudbit; // в эту переменную мы пишем HIGH когда хотим послать сообщение в IFFT через CloudBit
+int signalIR; // в эту переменную мы пишем HIGH когда хотим послать инфракрасное сообщение на бит лампы - вкл \ выкл
+
+
 void setup()
 {
 
