@@ -47,7 +47,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>c:\Arduino\libraries;c:\Arduino\hardware\arduino\avr\libraries;\\Mac\Home\Documents\Arduino\libraries;c:\Arduino\hardware\arduino\avr\cores\arduino;c:\Arduino\hardware\arduino\avr\variants\leonardo;\\Mac\Home\Documents\Arduino\SmartLight;c:\Arduino\hardware\tools\avr/avr/include/;c:\Arduino\hardware\tools\avr//avr/include/avr/;c:\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>c:\Arduino\libraries;c:\Arduino\hardware\arduino\avr\libraries;\\Mac\Home\Documents\Arduino\libraries;c:\Arduino\hardware\arduino\avr\cores\arduino;c:\Arduino\hardware\arduino\avr\variants\leonardo;C:\Users\denis_petelin\Documents\Visual Studio 2015\SmartLight;c:\Arduino\hardware\tools\avr/avr/include/;c:\Arduino\hardware\tools\avr//avr/include/avr/;c:\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>\\Mac\Home\Documents\Arduino\SmartLight\__vm\.SmartLight.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_ATmega32u4__;__AVR_ATmega32U4__;F_CPU=16000000L;ARDUINO=10609;ARDUINO_AVR_LEONARDO;ARDUINO_ARCH_AVR;USB_VID=0x2341;USB_PID=0x8036;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>

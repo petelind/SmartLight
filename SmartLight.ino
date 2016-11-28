@@ -14,7 +14,7 @@ void setup()
 
   /* add setup code here */
 	
-	Serial.begin(57600);
+	Serial.begin(9600);
 	pinMode(top_input_pin, INPUT);
 	pinMode(bottom_input_pin, INPUT);
 	pinMode(middle_input_pin, INPUT);
