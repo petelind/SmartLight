@@ -34,7 +34,9 @@ void setup()
 
 void loop()
 {
-
+	
   /* add main program code here */
+	darknessLevel = analogRead(top_input_pin);
+	darknessLevel = map(darknessLevel, 0, 1024, 0, 255);
 
 }
