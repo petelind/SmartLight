@@ -1,5 +1,6 @@
 ﻿// FYI: Для littleBits доступны 3 входных и 3 выходных пина
 // Три правых - ввод
+// Введение в вопрос находитя здесь: http://littlebits.cc/projects/ready-to-go-template-code-for-arduino
 const int top_input_pin = 0; // только digital обмены!
 const int middle_input_pin = A0;
 const int bottom_input_pin = A1;
