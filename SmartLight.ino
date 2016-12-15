@@ -67,5 +67,6 @@ void loop()
 		// и напишем уровень темноты в o21 NUMBER!
 		analogWrite(middle_output_pin, darknessLevel);
 	}
-
+	// Сейчас лампочка гаснет, как только мы отпускаем кнопку в CloudBit Control PanelOB
+	// TODO: Подумай, как можно оставлять лампочку гореть?
 }
